@@ -74,14 +74,14 @@ Starbucks/
 docker service create --name starbucks --replicas 5 \
   --publish 3000:3000 \
   --restart-condition any \
-  hrishi0706/starbucks:latest
+  omeganeel/starbucks:latest
 ```
 
 ## Jenkins deployment :
 ![Jenkins deployment](https://github.com/Omeganeel/Starbucks/blob/main/sc%20Jenkins%20deployment.png)
 
 ## Accessing the Application :
-- After deployment, access the application at: `http://<server-ip>:3000`
+- After deployment, access the application at: `http://54.242.161.68:3000/`
 
 ## Starbucks website clone :
 ![Starbucks website clone](https://github.com/Omeganeel/Starbucks/blob/main/sc%20starbucks%20web%20clone.png)

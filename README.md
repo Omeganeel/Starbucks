@@ -6,9 +6,9 @@
 This project is a Starbucks web application that uses Jenkins for Continuous Integration and Continuous Deployment (CI/CD). The deployment is containerized using Docker and orchestrated with Docker Swarm to maintain a desired state of **5 replicas**.
 
 ## Features
-- EC2 aws instance for computational power
-- ssh via Git 
-- Automated CI/CD pipeline with Jenkins.
+- **AWS EC2** instance for computational power
+- ssh via **Git** 
+- Automated CI/CD pipeline with **Jenkins**.
 - Static code analysis using **SonarQube**.
 - Security vulnerability scanning with **Trivy**.
 - Docker containerization and deployment using **Docker Swarm**.
